@@ -1186,3 +1186,14 @@ a {
         padding: 0px 10px;
     }
 }
+
+#hands {
+    /* Torna os elementos clicáveis */
+    pointer-events: none;
+
+    /* Faz com que fique em cima do elementos */
+    position: fixed;
+
+    /* Fica na frente dos elementos */
+    z-index: 2;
+}
